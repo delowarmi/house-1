@@ -1,0 +1,615 @@
+/* all common css start  */
+*{
+        margin: 0;
+        padding: 0;
+}
+/* all common css end */
+.house{
+        width: 1350px;
+        height: 700px;
+        margin: 20px auto;
+        background:white;
+        border-bottom:solid 15px green ;
+        position: relative;
+}
+.box1{
+       width:800px ;
+       height: 300px;
+       position:absolute ;
+       background-color: antiquewhite;
+       margin: 29% 25%;
+       border-top: solid 10px darkslategray;
+       border-left: solid 5px darkslategray;
+       border-right: solid 5px darkslategray;
+
+}
+.clip1{
+        clip-path: polygon(20% 54%, 82% 54%, 100% 100%, 0% 100%);
+        background-color:red;
+        width: 900px;
+        height: 392px;
+        position:absolute;
+        margin-left: 288px;
+        position:absolute;
+}
+.box2{
+        width: 360px;
+        height: 271px;
+        background-color:white;
+        margin: 3.5% 27%;
+        position: absolute;
+}
+.clip2{
+        
+        height: 260px;
+        width:260px ;
+        background-color:white;
+        position: absolute;
+        margin: 306px 739px;
+        z-index: 10;
+        border-left:solid 5px black ;
+        border-top:solid 5px black ;
+        transform: translateX(-50%) rotate(45deg);
+}
+.box3{
+        width: 240px;
+        height: 135px;
+        position: absolute;
+        background-color: rgb(73, 72, 87);
+        margin: 27% 45.5%;
+        z-index: 15;
+        border-top-left-radius:120px ;
+        border-top-right-radius:120px ;
+        border-top: solid 7px black;
+        border-left: solid 7px black;
+        border-right: solid 7px black;
+        border-bottom: solid 2px black;
+}
+.star{
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        background: red;
+        height: 70px;
+        width: 70px;
+        position: absolute;
+        z-index: 30;
+        margin:7px 0 0 13px;
+        transform: translateX(-8%) rotate(25deg);
+}
+.door{
+        width: 90px;
+        height:132px ;
+        background: rgb(155, 40, 5);
+        position: absolute;
+        margin: 37% 36%;
+        z-index: 20;
+        border-top-left-radius:120px ;
+        border-top-right-radius:120px ;
+        border-top: solid 8px black;
+        border-left: solid 8px black;
+        border-right: solid 8px black;
+}
+.line1{
+        width: 360px;
+        height: 8px;
+        position: absolute;
+        z-index: 25;
+        margin: 110px 0px;
+        background: red;
+}
+.line2{
+        width: 360px;
+        height: 8px;
+        position: absolute;
+        z-index: 25;
+        margin: 90px 0px;
+        background: red;
+}
+.line3{
+        width: 800px;
+        height: 8px;
+        background: red;
+        position:absolute;
+        margin: 140px 0;
+}
+
+.line4{
+        width: 800px;
+        height: 8px;
+        background: red;
+        position:absolute;
+        margin: 120px 0;
+}
+.janala1{
+        width: 60px;
+        height: 80px;
+        border-top: solid 6px black;
+        background-color: rgb(73, 72, 87);
+        border-bottom: solid 6px black;
+        border-left: solid 2px black;
+        border-right: solid 2px black;
+        position: absolute;
+        margin: 170px 35px;
+}
+.d1{
+        height: 80px;
+        width: 3px;
+        background: black;
+        margin: 0 6px;
+}
+.d2{
+        height: 80px;
+        width: 3px;
+        background: black;
+        margin: -80px 18px;
+}
+.d3{
+        height: 80px;
+        width: 3px;
+        background: black;
+        margin: 0 30px;
+}
+.d4{
+        height: 80px;
+        width: 3px;
+        background: black;
+        margin: -80px 42px;
+}
+.d5{
+        height: 80px;
+        width: 3px;
+        background: black;
+        margin: 0 54px;
+}
+.janala2{
+        width: 60px;
+        height: 80px;
+        border-top: solid 6px black;
+        background-color: rgb(73, 72, 87);
+        border-bottom: solid 6px black;
+        border-left: solid 2px black;
+        border-right: solid 2px black;
+        position: absolute;
+        margin: 170px 263px;
+}
+.e1{
+        height: 80px;
+        width: 3px;
+        background: black;
+        margin: 0 6px;
+}
+.e2{
+        height: 80px;
+        width: 3px;
+        background: black;
+        margin: -80px 18px;
+}
+.e3{
+        height: 80px;
+        width: 3px;
+        background: black;
+        margin: 0 30px;
+}
+.e4{
+        height: 80px;
+        width: 3px;
+        background: black;
+        margin: -80px 42px;
+}
+.e5{
+        height: 80px;
+        width: 3px;
+        background: black;
+        margin: 0 54px;
+}
+.janala3{
+        width: 100px;
+        height: 70px;
+        border-top: solid 8px black;
+        background-color: rgb(73, 72, 87);
+        border-bottom: solid 8px black;
+        border-left: solid 3px black;
+        border-right: solid 3px black;
+        position: absolute;
+        margin: 20px 65px;
+}
+.s1{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: 0 7px;
+}
+.s2{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin:-70px 21px;
+}
+.s3{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: 0px 35px;
+}
+.s4{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: -70px 49px;
+}
+.s5{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: 0 63px;
+}
+.s6{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: -70px 77px;
+}
+.s7{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: 0px 91px;
+}
+.janala4{
+        width: 100px;
+        height: 70px;
+        border-top: solid 8px black;
+        background-color: rgb(73, 72, 87);
+        border-bottom: solid 8px black;
+        border-left: solid 3px black;
+        border-right: solid 3px black;
+        position: absolute;
+        margin: 20px 620px;
+}
+.a1{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: 0 7px;
+}
+.a2{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin:-70px 21px;
+}
+.a3{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: 0px 35px;
+}
+.a4{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: -70px 49px;
+}
+.a5{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: 0 63px;
+}
+.a6{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: -70px 77px;
+}
+.a7{
+        width: 3px;
+        height:70px ;
+        background: black;
+        margin: 0px 91px;
+}
+.janala5{
+        width: 90px;
+        height: 105px;
+        border-top: solid 8px black;
+        background-color: rgb(73, 72, 87);
+        border-bottom: solid 8px black;
+        border-left: solid 3px black;
+        border-right: solid 3px black;
+        position: absolute;
+        margin: 160px 65px;
+        border-top-left-radius:120px ;
+        border-top-right-radius:120px ;
+}
+.b1{
+        width: 3px;
+        height:98px ;
+        background: black;
+        margin: 10px 7px;
+}
+.b2{
+        width: 3px;
+        height:105px ;
+        background: black;
+        margin:-114px 21px;
+}
+.b3{
+        width: 3px;
+        height:105px ;
+        background: black;
+        margin: 5px 35px;
+}
+.b4{
+        width: 3px;
+        height:105px ;
+        background: black;
+        margin: -110px 49px;
+}
+.b5{
+        width: 3px;
+        height:105px ;
+        background: black;
+        margin: 5px 63px;
+}
+.b6{
+        width: 3px;
+        height:98px ;
+        background: black;
+        margin: -100px 77px;
+}
+.janala6{
+        width: 90px;
+        height: 105px;
+        border-top: solid 8px black;
+        background-color: rgb(73, 72, 87);
+        border-bottom: solid 8px black;
+        border-left: solid 3px black;
+        border-right: solid 3px black;
+        position: absolute;
+        margin: 160px 620px;
+        border-top-left-radius:120px ;
+        border-top-right-radius:120px ;
+}
+.c1{
+        width: 3px;
+        height:98px ;
+        background: black;
+        margin: 10px 7px;
+}
+.c2{
+        width: 3px;
+        height:105px ;
+        background: black;
+        margin:-114px 21px;
+}
+.c3{
+        width: 3px;
+        height:105px ;
+        background: black;
+        margin: 5px 35px;
+}
+.c4{
+        width: 3px;
+        height:105px ;
+        background: black;
+        margin: -110px 49px;
+}
+.c5{
+        width: 3px;
+        height:105px ;
+        background: black;
+        margin: 5px 63px;
+}
+.c6{
+        width: 3px;
+        height:98px ;
+        background: black;
+        margin: -100px 77px;
+}
+.sun{
+        height: 260px;
+        width: 260px;
+        background:rgb(255, 174, 0);
+        position:absolute ;
+        border-radius:140px ;
+        margin: 70px 810px;
+        
+}
+.box4{
+        width: 250px;
+        height: 200px;
+        background-color:rgb(216, 207, 207);
+        margin: 502px 125px;
+        position: absolute;
+        z-index: 100;  
+}
+.box5{
+        height: 180px;
+        width:180px ;
+        background-color:rgb(216, 207, 207);
+        position: absolute;
+        margin: 405px 250px;
+        z-index:50;
+        border-left:solid 5px black ;
+        border-top:solid 5px black ;
+        transform: translateX(-50%) rotate(45deg);
+}
+.box6{
+        width: 120px;
+        height: 60px;
+        position: absolute;
+        background-color: rgb(73, 72, 87);
+        margin: 30px 12px;
+        z-index: 60;
+        border-top-left-radius:120px ;
+        border-top-right-radius:120px ;
+        border-top: solid 7px black;
+        border-left: solid 7px black;
+        border-right: solid 7px black;
+        border-bottom: solid 2px black;
+        transform: translateX(-8%) rotate(-45deg);
+}
+.line5{
+        width: 250px;
+        height: 10px;
+        background: red;
+        position:absolute;
+        z-index: 1000;
+        margin: 45px 0;
+}
+.line6{
+        width: 250px;
+        height: 10px;
+        background: red;
+        position:absolute;
+        z-index: 1000;
+        margin: 25px 0;
+}
+.box7{
+        width: 112px;
+        height: 100px;
+        background-color: rgb(73, 72, 87);
+        position: absolute;
+        margin: 70px 65px;
+        border-top: solid 7px black;
+        border-left: solid 3px black;
+        border-right: solid 3px black;
+        border-bottom: solid 7px black;        
+}
+.f1{
+        width: 3px;
+        height: 100px;
+        background: black;
+        position: absolute;
+        margin: 0 8px;
+}
+.f2{
+        width: 3px;
+        height: 100px;
+        background: black;
+        position: absolute;
+        margin: 0 24px;
+}
+.f3{
+        width: 3px;
+        height: 100px;
+        background: black;
+        position: absolute;
+        margin: 0 40px;
+}
+.f4{
+        width: 3px;
+        height: 100px;
+        background: black;
+        position: absolute;
+        margin: 0 56px;
+}
+.f5{
+        width: 3px;
+        height: 100px;
+        background: black;
+        position: absolute;
+        margin: 0 72px;
+}
+.f6{
+        width: 3px;
+        height: 100px;
+        background: black;
+        position: absolute;
+        margin: 0 88px;
+}
+.f7{
+        width: 3px;
+        height: 100px;
+        background: black;
+        position: absolute;
+        margin: 0 104px;
+}
+h1{
+        position: absolute;
+        font-size: 100px;       
+}
+h2{
+        position: absolute;
+        font-size: 40px;
+        color: red;
+        padding: 100px 0;
+}
+span{
+        font-size: 30px;     
+}
+.tree{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background: green;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        margin: 440px 1120px;
+        transform: translateX(-8%) rotate(-45deg);
+        z-index: 100;
+}
+.tree1{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background: green;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        margin: 460px 1180px;
+        transform: translateX(-8%) rotate(-45deg);
+        z-index: 100;
+}
+.tree2{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background: green;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        margin: 440px 55px;
+        transform: translateX(-8%) rotate(-45deg);
+        z-index: 1000;
+}
+.tree3{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background: green;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        margin: 460px 0px;
+        transform: translateX(-8%) rotate(-45deg);
+        z-index: 100;
+}
+.wood{
+        width: 12px;
+        height: 145px;
+        background: rgb(94, 37, 4);
+        position: absolute;
+        margin: 555px 1164px;
+        z-index: 102;
+}
+.wood1{
+        width: 12px;
+        height: 130px;
+        background: rgb(94, 37, 4);
+        position: absolute;
+        margin: 570px 1224px;
+        z-index: 102;
+}
+.wood2{
+        width: 12px;
+        height: 145px;
+        background: rgb(94, 37, 4);
+        position: absolute;
+        margin: 555px 100px;
+        z-index: 1002;
+}
+.wood3{
+        width: 12px;
+        height: 125px;
+        background: rgb(94, 37, 4);
+        position: absolute;
+        margin: 575px 45px;
+        z-index: 1002;
+}
